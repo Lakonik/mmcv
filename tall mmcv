@@ -1,0 +1,1788 @@
+[33mcommit a47ca7a9a268608b047786a00aa7847c2288c371[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Feb 14 00:57:37 2020 +0800
+
+    Fix an import error caused by legacy codes (#186)
+    
+    * fix an import error
+    
+    * fix an import error
+
+[33mcommit f4272a88752baae743f7e23cad92c6e6ec35852a[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Feb 12 22:46:12 2020 +0800
+
+    remove the outdated PaviLoggerHook and add requirements.txt (#185)
+
+[33mcommit a500a6462117b2e77f20abacd15ef86a3e6f3715[m
+Author: Cao Yuhang <yhcao6@gmail.com>
+Date:   Wed Feb 12 22:20:04 2020 +0800
+
+    Use official ddp to implement MMDDP (#184)
+
+[33mcommit 89606a14fa5c141101ce95a4410f3dc60b62f5c1[m
+Author: Cao Yuhang <yhcao6@gmail.com>
+Date:   Wed Feb 12 21:43:38 2020 +0800
+
+    log meta (#183)
+    
+    * log meta
+    
+    * add type check
+
+[33mcommit e127ef28dbaa53b52529e83cc4de2452132f5aca[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Feb 12 17:12:38 2020 +0800
+
+    Fix the missing numpy module for readthedocs (#182)
+    
+    * Fix the missing numpy module for readthedocs
+    
+    * fix the linting
+
+[33mcommit 0874642fb075dbe42647ab6779f1cdff17f4b79b[m
+Author: lizz <innerlee@users.noreply.github.com>
+Date:   Wed Feb 5 15:17:42 2020 +0800
+
+    Speed up bbox_clip (#177)
+    
+    * Speed up bbox_clip
+    
+    * Update geometry.py
+
+[33mcommit d6ce3a2e1b42d6cb1b3505e51f9323419cc9e8a4[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Feb 3 23:44:39 2020 +0800
+
+    add _load_checkpoint() to handle the loading only (#178)
+
+[33mcommit 712651aab6efb4f0a26935e1c7fd38a8e83185f7[m
+Author: lizz <innerlee@users.noreply.github.com>
+Date:   Sun Feb 2 18:18:17 2020 +0800
+
+    Adaptive progress bar length (#174)
+    
+    * Adaptive progress bar length
+    
+    Signed-off-by: lizz <lizz@sensetime.com>
+    
+    * it works
+    
+    Signed-off-by: lizz <lizz@sensetime.com>
+    
+    * format
+    
+    * pass test
+    
+    * :lipstick
+    
+    * test
+    
+    * Update test_progressbar.py
+    
+    * 2.7
+    
+    * sort import
+    
+    Signed-off-by: lizz <lizz@sensetime.com>
+    
+    * try this
+    
+    Signed-off-by: lizz <lizz@sensetime.com>
+
+[33mcommit 90a0f353ee9fb1a6f95d82451825b354c03c5ab4[m
+Author: lizz <innerlee@users.noreply.github.com>
+Date:   Sat Feb 1 10:14:55 2020 +0800
+
+    Format to conform pre-commit (#173)
+    
+    Signed-off-by: lizz <lizz@sensetime.com>
+
+[33mcommit 43ca0e57a9852e88483f4ddc5ed7588ab17e8912[m[33m ([m[1;33mtag: v0.2.16[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Jan 11 17:53:35 2020 +0800
+
+    fix the shape assertion in impad (#172)
+
+[33mcommit 10fa1eeaf4ebce77b0ed6d1b1490255ce32d4e68[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Jan 10 13:34:42 2020 +0800
+
+    Add copyright header (#171)
+    
+    * add copyright header
+    
+    * change # to // for cpp files
+
+[33mcommit da7bb063d3db02a49fa8f080608445262b292ef0[m
+Author: Wenwei Zhang <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Sat Jan 4 14:55:01 2020 +0800
+
+    Load state dict (#164)
+    
+    * use load_from_state_dict to load ckpt
+    
+    * reformat
+    
+    * reformat
+    
+    * reformat import
+    
+    * pass flake8
+    
+    * isort skip
+
+[33mcommit b34eef6e0edcc4e7e07a337788eb097b30747b6a[m
+Author: Kevin <qiwen@qiwen.name>
+Date:   Thu Jan 2 15:23:42 2020 +0800
+
+    fix ZeroDivisionError in progressbar (#162) (#163)
+
+[33mcommit 0d00f1a61cae4cc92181891a63cd203b0f2d5d6c[m
+Author: Ye Liu <879316283@qq.com>
+Date:   Sat Dec 21 19:34:08 2019 +0800
+
+    Fix int support in mmcv.slice_list (#161)
+
+[33mcommit ead4bc39bb9c9527a0440e30e59070901b7c121d[m[33m ([m[1;33mtag: v0.2.15[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu Dec 12 22:18:40 2019 +0800
+
+    Add dist utils (#157)
+    
+    * add dist utils
+    
+    * rename due to a typo
+    
+    * bump version to 0.2.15
+    
+    * fix imports
+
+[33mcommit 2330c4f468dc891834439d17b45f1f5a2bd9658c[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu Dec 12 21:40:42 2019 +0800
+
+    Add pre-commit hooks (#156)
+    
+    * add pre-commit hooks
+    
+    * update yapf version
+
+[33mcommit fd3f862edbf2e3450acbea51771907d04b81e61b[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu Dec 12 20:41:43 2019 +0800
+
+    add an argument to skip os.symlink (#155)
+
+[33mcommit 50d2cbdd586b1c76261d7f9f569cbaef18b3f356[m
+Author: Zhipeng Han <hanzhipeng9@gmail.com>
+Date:   Thu Dec 12 19:16:16 2019 +0800
+
+    process the case that no weight in the module (#153)
+    
+    Signed-off-by: han_hans <han_hans@apple.com>
+
+[33mcommit 0eef3757e8730c515fcf27a8449ba91f1ac391e8[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Dec 2 13:14:33 2019 +0800
+
+    fix the code style of yapf 0.29 (#150)
+    
+    * fix the code style of yapf 0.29
+    
+    * fix flake8
+
+[33mcommit 56971278dbae0d7c9c84087e2708c080ddfd78ce[m
+Author: Vladimir Iglovikov <ternaus@users.noreply.github.com>
+Date:   Sun Dec 1 20:32:50 2019 -0800
+
+    Added Weight and Biases logger. (#143)
+    
+    * Added wandb logger
+    
+    * bugfix
+    
+    * fixes
+    
+    * fix
+    
+    * flake8 fixes
+    
+    * yapf fixes
+    
+    * Refactor hook, add test
+    
+    * flake8 fixes
+    
+    * yapf fixes
+    
+    * fix in test
+    
+    * mock package => travis
+
+[33mcommit aea750051f7660cf61dbd2360a25ea0bd13efa3b[m
+Author: Rinat Shigapov <rinatshigapov@gmail.com>
+Date:   Thu Nov 21 09:34:26 2019 -0600
+
+    fix dependencies (#146)
+    
+    * fix requirements
+    
+    * don't reuse build dependencies between different envs
+    
+    * minor fix
+    
+    * change the order of opencv and opencv-headless
+
+[33mcommit b480ee475f047911eaee443de6153283c980a08a[m
+Author: Korabelnikov Aleks <nesoriti@yandex.ru>
+Date:   Sun Nov 17 12:16:45 2019 +0300
+
+    prevent from hangning in cv2.imshow()/cv2.waitkey (#145)
+    
+    * prevent from hangning in cv2.imshow()/cv2.waitkey
+    
+    case:
+    Window has been closed after cv2.imshow; cv2.waitKey;
+    expected behavior:
+    - continue program
+    actual  behavior:
+    - program hangs
+    
+    This commit fixes it
+    
+    * fix linter
+
+[33mcommit 8829ff0dfd9b9c9484cbce17f5cecd1128b61723[m[33m ([m[1;33mtag: v0.2.14[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Oct 6 22:46:06 2019 +0800
+
+    Add rgb2gray and gray2rgb (#139)
+    
+    * add rgb2gray and gray2rgb
+    
+    * update version
+    
+    * minor fix for the docstring
+
+[33mcommit d361ef21b0f9de48ea1ec5937420460c7b6760fb[m
+Author: Dhananjai Sharma <31407075+dhananjaisharma10@users.noreply.github.com>
+Date:   Sun Oct 6 10:12:17 2019 -0400
+
+    Added solarize and posterize image transformations (#132)
+    
+    * Added solarize and posterize image transformations
+    
+    * Added solarize and posterize transformations. Modified __init__.py
+    
+    * Updated mmcv/image/__init__.py
+    
+    * Updated the docstrings for solarize and posterize
+    
+    * add unit tests
+    
+    * fix a test case
+
+[33mcommit 688e6abe88889173b8e35689d6f884aad649af93[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Sep 7 11:40:33 2019 +0800
+
+    call dist.is_initialized() after checking the availability (#128)
+
+[33mcommit 22ba143d6c620d00dfdd100e7af5623026398414[m
+Author: Zhipeng Han <hanzhipeng9@gmail.com>
+Date:   Sat Sep 7 11:14:32 2019 +0800
+
+    [feat]: find root of Version Control Systems (#129)
+    
+    Signed-off-by: Zhipeng Han <hanzhipeng9@gmail.com>
+
+[33mcommit 5b10dcd79f0f0e9d443c7071c8d798c1a92a6bc5[m[33m ([m[1;33mtag: v0.2.13[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu Aug 22 19:59:58 2019 +0800
+
+    Update version to v0.2.13 (#117)
+
+[33mcommit 25b422ab6f4b59da9cb7c2a5661f53d9c8623ccb[m
+Author: lizz <innerlee@users.noreply.github.com>
+Date:   Wed Aug 21 19:31:58 2019 +0800
+
+    Let progress goes to stderr (#115)
+    
+    * let progress goes to stderr
+    
+    Signed-off-by: lizz <lizz@sensetime.com>
+    
+    * Add argument file=sys.stdout
+    
+    Signed-off-by: lizz <lizz@sensetime.com>
+    
+    * For the sake of the stupid pytest
+    
+    Signed-off-by: lizz <lizz@sensetime.com>
+    
+    * line width < 120 is anti-humane
+    
+    Signed-off-by: lizz <lizz@sensetime.com>
+    
+    * flake8
+    
+    Signed-off-by: lizz <lizz@sensetime.com>
+    
+    * Lets try
+    
+    Signed-off-by: lizz <lizz@sensetime.com>
+
+[33mcommit d5865e0cbdf4f23c246a6e3b1156338e5a450ae2[m
+Author: ZwwWayne <40779233+ZwwWayne@users.noreply.github.com>
+Date:   Tue Aug 20 15:05:17 2019 +0800
+
+    Track iter progress (#112)
+    
+    * track progress of iter&enum
+    
+    * reformat
+    
+    * reformat with yapf
+    
+    * add unitest
+    
+    * add doc, and deprecate track_enum_progress
+    
+    * update docs & comments
+
+[33mcommit 9de7927a698044e5cf1567cecfe3d442676f3e42[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Aug 11 13:30:20 2019 +0800
+
+    Use torch.utils.tensorboard instead of tensorboardX (#108)
+    
+    * use torch.utils.tensorboard instead of tensorboardX
+    
+    * add backward compatibility
+    
+    * add .idea to gitignore
+
+[33mcommit 27ce41907f2f5186ab5b8c40d1645200386c4ee6[m
+Author: Jerry Jiarui XU <xvjiarui0826@gmail.com>
+Date:   Sat Aug 10 21:53:23 2019 -0700
+
+    fixed crop of single channel image like semantic map (#107)
+
+[33mcommit 3b46ddf0d30ee4928b509c180707032369863b5e[m
+Author: ZongYuan Zhan <zhanzy5@mail2.sysu.edu.cn>
+Date:   Fri Aug 9 00:01:27 2019 +0800
+
+    Fix spelling mistake in Config.auto_argparser. (#106)
+
+[33mcommit 7cb4d804e2657485c5345ad0a912c4dfe176f147[m[33m ([m[1;33mtag: v0.2.12[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Aug 6 20:57:50 2019 +0800
+
+    update to v0.2.12 (#104)
+
+[33mcommit 067d5086f0346c423c222c9281b2f7626a7b00c6[m
+Author: Yang Li <790230517@qq.com>
+Date:   Tue Aug 6 20:42:43 2019 +0800
+
+    Fix multiple err_msg logging in distribuited mode (#103)
+
+[33mcommit c6f2caea5d310bfbf95159c1094305233a42590a[m
+Author: CoinCheung <867153576@qq.com>
+Date:   Fri Aug 2 16:34:20 2019 +0800
+
+    resubmit parameter shape check (#100)
+    
+    * resubmit parameter shape check
+    
+    * check lint
+    
+    * print a table of mismatched keys
+
+[33mcommit d1abbca1d97991aa84d7739bd7daa4e4c8302a2e[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Jul 31 20:40:59 2019 +0800
+
+    Create CONTRIBUTING.md (#102)
+
+[33mcommit 95b87687ca11ef246a1667533eabfc3fcc4b44fc[m
+Author: Karlind <karlind@users.noreply.github.com>
+Date:   Wed Jul 31 20:29:04 2019 +0800
+
+    install cython automatically as a dependency (#101)
+    
+    * install cython automatically as a dependency
+    
+    * install numpy automatically before building
+    
+    * fix linting errors
+
+[33mcommit 5f8fb7d463bf7a1dc322884b51a98de9f8b48543[m[33m ([m[1;33mtag: v0.2.11[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Jul 31 02:33:58 2019 +0800
+
+    update version to v0.2.11 (#98)
+
+[33mcommit 5b72bd4bafd747994558a3ec3d9a94fd1f1ef011[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Jul 31 02:22:20 2019 +0800
+
+    fix the compiling on mac os (#97)
+
+[33mcommit 30985b2f768ab21dc37de8108e4800139e2b276a[m
+Author: Karlind <karlind@users.noreply.github.com>
+Date:   Wed Jul 31 01:21:05 2019 +0800
+
+    add support for pathlib to load and dump (#91)
+    
+    * add support for pathlib to load and dump
+    
+    * minor formatting
+
+[33mcommit 5a5c94b68b5ea6d7a678bc3ce04348a36b41d6a0[m
+Author: HarryHan <506365608@qq.com>
+Date:   Tue Jul 30 23:23:54 2019 +0800
+
+    Update lr_updater.py (#95)
+    
+    * Update lr_updater.py
+    
+    "Add min_lr to PolyLrUpdaterHook, so that it can anneal to min_lr. When min_lr=0, it behaves as usual. "
+    
+    * Update lr_updater.py
+
+[33mcommit eae81c1e865f4467f801a9b396f0c19b38a95d25[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Jul 30 23:15:56 2019 +0800
+
+    Add yapf and isort to travis (#96)
+    
+    * add yapf and isort to travis
+    
+    * minor formatting
+    
+    * remove blank lines
+    
+    * skip unit tests for progressbar when python2
+    
+    * update travis to ubuntu 16.04
+    
+    * use a newer version ffmpeg
+    
+    * add -y to add-apt-repository
+
+[33mcommit 3e1e297d366837f3d154da79f294fa94248f9bfd[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Jul 13 13:43:10 2019 +0800
+
+    use torchvision:// instead of modelzoo:// (#89)
+
+[33mcommit e5ca8846c51e612f1640ddd869f9a7399ece789e[m[33m ([m[1;33mtag: v0.2.10[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Jul 7 21:41:31 2019 +0800
+
+    Fix the compiling bug when using `pip install mmcv` (#88)
+    
+    * rename flowWarp to FlowWarp
+    
+    * fix the compiling bug when using pip install
+    
+    * update version to v0.2.10
+
+[33mcommit 0ad15a508eea31ee4df506173fabd9693f5b3407[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Jul 7 17:32:40 2019 +0800
+
+    Add mmcv._ext to autodoc_mock_imports (#86)
+
+[33mcommit e60c7efde3a1e7a933e2de93065fae06579497fd[m[33m ([m[1;33mtag: v0.2.9[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Jul 7 16:54:22 2019 +0800
+
+    Improve the documentation (#85)
+    
+    * fix doc generation
+    
+    * add docs for optical flow
+    
+    * fix typo
+
+[33mcommit 492228794be1213b869f2ec8c4c6aeeda760022f[m
+Author: simon wu <wswday@sina.com>
+Date:   Sun Jul 7 13:55:51 2019 +0800
+
+    Fixing build-errors on Windows (#84)
+
+[33mcommit 258d4d320caf933a1763b1c90423330a01e7266d[m
+Author: Jiangmiao Pang <pangjiangmiao@gmail.com>
+Date:   Mon Jun 24 20:13:33 2019 +0800
+
+    fix one bug in vgg (#83)
+
+[33mcommit ff5631003f9616851b950a79647c74929240758a[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Jun 24 20:11:30 2019 +0800
+
+    add mmaction to readme (#82)
+
+[33mcommit f9a750fe64f5bffddfbbc936de4d49b63ab4b109[m
+Author: Yue Zhao <thuzhaoyue@gmail.com>
+Date:   Tue Jun 18 01:40:11 2019 +0800
+
+    add BN pretrain model, add i3d pretrained on K-400 (#81)
+    
+    * add BN pretrain model, add i3d pretrained on K-400
+    
+    * fix flake8
+
+[33mcommit 28feffdb22a75528b8f92b1366d1e726ca2e8378[m
+Author: lizz <innerlee@users.noreply.github.com>
+Date:   Sat Jun 15 22:13:27 2019 +0800
+
+    Ignore autogenerated flow_warp_module.cpp (#80)
+    
+    Signed-off-by: lizz <363664470@qq.com>
+
+[33mcommit 395efbf2e9c4dda3644a46d797e64adfc838a7df[m
+Author: Evgeny Nizhibitsky <nizhibitsky@ya.ru>
+Date:   Sat Jun 15 14:56:27 2019 +0300
+
+    Make latest checkpoint symlink relative (#75)
+    
+    * Make latest symlink relative. Add tests
+    
+    * Skip test_save_checkpoint in the absense of torch
+    
+    * Fix pep8 in test_runner
+    
+    * Import runner only if torch import has succeeded
+
+[33mcommit 123720b64e02a7c3979e46979ca05ee23259b23c[m
+Author: lizz <innerlee@users.noreply.github.com>
+Date:   Sat Jun 15 14:52:53 2019 +0800
+
+    Download one copy in distributed environment (#76)
+    
+    * Download one copy in distributed environment
+    
+    Signed-off-by: innerlee <363664470@qq.com>
+    
+    * fix
+    
+    Signed-off-by: innerlee <363664470@qq.com>
+    
+    * format
+    
+    Signed-off-by: innerlee <363664470@qq.com>
+
+[33mcommit 92a81b62a6e7bf2407e31100c36fe5bf85b402eb[m
+Author: Yue Zhao <thuzhaoyue@gmail.com>
+Date:   Sat Jun 15 01:00:28 2019 +0800
+
+    Polish DataContainer (#79)
+    
+    * add iminvert
+    
+    * DC now supports dimension other than 3
+    
+    * fit flake8
+    
+    * generalize pad_dim and beautify code
+    
+    * fix bug; rename "pad_dim" to "pad_dims" for disambiguity
+    
+    * fix bug
+    
+    * fix flake8
+    
+    * fix yapf format
+    
+    * use deafault yapf
+    
+    * beautify style
+
+[33mcommit 9097957434da1308739c03aff53ac147f1500c56[m
+Author: nbei <nbeiray@gmail.com>
+Date:   Tue May 28 20:03:08 2019 +0800
+
+    C++ implementation for Flow Warp Module (#71)
+    
+    * flow_warp_c
+    
+    * flow_warp_c
+    
+    * beautify format
+    
+    * beautify format
+    
+    * beautify format
+    
+    * beautify format
+    
+    * add Cython
+    
+    * modify
+    
+    * fix details
+    
+    * fix details
+    
+    * fix type
+
+[33mcommit 20d7cd30dcc2a7a5abc409d20cbdd0899575e9d8[m[33m ([m[1;33mtag: v0.2.8[m[33m)[m
+Merge: c234cde 2051f4f
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed May 22 13:41:42 2019 +0800
+
+    Merge pull request #70 from hellock/master
+    
+    Update to v0.2.8
+
+[33mcommit 2051f4f4e6537d5ae34bd4e72922679c988e1d6f[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed May 22 13:35:52 2019 +0800
+
+    update to v0.2.8
+
+[33mcommit c234cdea80a1142f0bee6c7b49769216c42f7fc4[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed May 22 11:21:33 2019 +0800
+
+    add model urls for HRNet (#68)
+
+[33mcommit 8e84059cee821710280a721b36537e25679247b8[m
+Author: Cao Yuhang <yhcao6@gmail.com>
+Date:   Tue May 14 11:56:42 2019 +0800
+
+    only display base lr when there are multi lrs (#65)
+    
+    * only display base lr when there are multi lrs
+    
+    * change comment: base lr to lr of the first param group
+
+[33mcommit 573aaa785fee9e515fad1ff0caba2c3158e1dc2a[m
+Author: Cao Yuhang <yhcao6@gmail.com>
+Date:   Mon May 13 08:46:31 2019 +0800
+
+    fix resnet-x101-32x4d-gn+ws hash error (#67)
+    
+    * fix resnet-x101-32x4d-gn+ws hash error
+    
+    * fix hash error of other models in jhu
+
+[33mcommit c728193f8d1dc62537c54b29748d9ba595184d40[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu May 9 00:16:04 2019 -0700
+
+    bug fix for the latest torchvision
+
+[33mcommit e2e109e4a5c5142d4880c4bae160879e008861a6[m
+Merge: 0d77f61 d4b91b8
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon May 6 21:28:15 2019 -0700
+
+    Merge pull request #66 from wangg12/master
+    
+    add bgr2hls and hls2bgr
+
+[33mcommit d4b91b837699bca8d11907525e86cd23172c3765[m
+Author: Gu Wang <guwang12@foxmail.com>
+Date:   Tue May 7 12:04:01 2019 +0800
+
+    test bgr2hls
+
+[33mcommit a092de341cfebfcd25317f17ba0c37b03cc32b54[m
+Author: Gu Wang <guwang12@foxmail.com>
+Date:   Tue Apr 30 22:52:14 2019 +0800
+
+    add bgr2hls and hls2bgr
+
+[33mcommit 0d77f61450aab4dde8b8585a577cc496acb95d7f[m
+Merge: 5d88696 d8bdc86
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Apr 23 21:06:24 2019 -0700
+
+    Merge pull request #64 from ycxioooong/master
+    
+    video fps should be float
+
+[33mcommit d8bdc8679c36dfe023e56351600f1d874f8f160f[m
+Author: xiongyu <xiongyuxy@gmail.com>
+Date:   Wed Apr 24 11:58:50 2019 +0800
+
+    video fps should be float
+
+[33mcommit 5d88696a8ab7f7aa86dce2f5c6b9b806f6337453[m[33m ([m[1;33mtag: v0.2.7[m[33m)[m
+Merge: 4abb916 bb08903
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Apr 23 18:07:54 2019 -0700
+
+    Merge pull request #63 from hellock/master
+    
+    Add jhu gn model urls and update to v0.2.7
+
+[33mcommit bb089030a9546fe14a5037a89e7b11f3cfe43390[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Apr 23 12:52:02 2019 -0700
+
+    remove wrong license argument
+
+[33mcommit cc207c45236decbd9382364933871a5241d8a819[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Apr 23 00:15:27 2019 -0700
+
+    add jhu gn model urls and update to v0.2.7
+
+[33mcommit 4abb916d604fba808f7220cc423280452eecfc96[m
+Merge: d99c6f8 11ad40b
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Apr 21 19:49:46 2019 -0700
+
+    Merge pull request #60 from wangg12/master
+    
+    fix possible encoding error when install
+
+[33mcommit 11ad40b5600d725549c7bfe32972f24539934e9a[m
+Author: Gu Wang <guwang12@foxmail.com>
+Date:   Mon Apr 22 10:43:33 2019 +0800
+
+    fix possible encoding error when install
+
+[33mcommit d99c6f8ddf67d1c98c60bb5967b7e007c20d718d[m
+Merge: 528bf72 b7c924c
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Apr 21 19:33:54 2019 -0700
+
+    Merge pull request #62 from hellock/collections-abc
+    
+    Use collections.abc instead of collections
+
+[33mcommit 528bf72ce86ec361a5e6f64cb8854d556aa191a1[m
+Merge: 944da49 5e3d09b
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Apr 21 19:16:24 2019 -0700
+
+    Merge pull request #61 from hellock/weight-init
+    
+    Add caffe2_xavier_init()
+
+[33mcommit b7c924cb9644a7a9d77a0384d8f5a2b5a60a7840[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Apr 21 19:13:28 2019 -0700
+
+    use collections.abc instead of collections
+
+[33mcommit 5e3d09bc5dc9ce8438325b32f4ac70b6242bd536[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Apr 21 18:51:38 2019 -0700
+
+    add caffe2_xavier_init() because of different implementations of caffe2 and pytorch
+
+[33mcommit 944da49fcbf8d81467464c44a7481c6b9d687c54[m
+Author: Yue Zhao <thuzhaoyue@gmail.com>
+Date:   Sat Apr 20 15:27:59 2019 +0800
+
+    add iminvert (#58)
+    
+    * add iminvert
+    
+    * fix for flake8
+    
+    * minor improvement
+    
+    * add test for iminvert
+    
+    * fix for flake8
+    
+    * fix for flake8
+    
+    * revise __init__
+    
+    * revise __init__
+
+[33mcommit 38fa314226b5185c11913e97eeb8a74d68b29a65[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Apr 19 21:27:34 2019 -0700
+
+    Add GN+WS pretrained model urls (#59)
+    
+    * add GN+WS pretrained model urls
+    
+    * fix linting errors
+
+[33mcommit 8266d877fe244fb648e5c192701a1c3538d29202[m
+Author: Cao Yuhang <yhcao6@gmail.com>
+Date:   Fri Apr 19 15:18:33 2019 +0800
+
+    add json log support (#55)
+    
+    * add json log support
+    
+    * add some comment, minor fix
+    
+    * rename variable vv to item
+    
+    * mv round float to a function
+
+[33mcommit 506455af0bb4edf6b13cec5c7d171f26c9531d52[m[33m ([m[1;33mtag: v0.2.6[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Apr 14 22:55:58 2019 -0700
+
+    Update version to 0.2.6 (#54)
+    
+    * fix the time estimation when resuming from a checkpoint
+    
+    * fix the time estimation when resuming from a checkpoint
+    
+    * support str type for loggers
+    
+    * fix yaml dump tests
+    
+    * update version to v0.2.6
+
+[33mcommit b85136772d4a78a3cdc7779301f984ad0dd21235[m
+Author: Cao Yuhang <yhcao6@gmail.com>
+Date:   Mon Apr 15 13:28:05 2019 +0800
+
+    fix bug that stuck at evaluation (#53)
+    
+    * fix bug that stuck at evaluation
+    
+    * remove mode variable
+
+[33mcommit bef7c13a95039e676330d9fc2176b6b4b4d79731[m
+Merge: 4a1ddfc 5726795
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Apr 10 22:38:45 2019 -0700
+
+    Merge pull request #47 from yhcao6/memory_statistic
+    
+    reduce max memory in dist training
+
+[33mcommit 5726795c7a3ec0a469aee361c57ff508b6e73886[m
+Author: Cao Yuhang <yhcao6@gmail.com>
+Date:   Mon Apr 8 14:07:43 2019 +0800
+
+    reduce max memory in dist training
+
+[33mcommit 4a1ddfc8a129e9adc2fced7299a1c35d95d95339[m
+Merge: 1263c91 f3d5d97
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Apr 6 19:32:53 2019 -0700
+
+    Merge pull request #44 from yhcao6/master
+    
+    fix memory order in log text
+
+[33mcommit f3d5d97919acab764b4bbbdd33fd4bd5a52a5b2b[m
+Author: Cao Yuhang <yhcao6@gmail.com>
+Date:   Sun Apr 7 10:20:52 2019 +0800
+
+    fix memory order in log text
+
+[33mcommit 1263c91e5c55c935562e5fa4c91daab90fe6008b[m
+Author: Cao Yuhang <yhcao6@gmail.com>
+Date:   Sat Apr 6 14:11:35 2019 +0800
+
+    add memory statistic (#41)
+    
+    * add memory statistic
+    
+    * fix import order and cuda check
+
+[33mcommit a0ce998ecd6a78ced7377baa27cdf1928c272fd1[m[33m ([m[1;33mtag: v0.2.5[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Mar 25 22:54:42 2019 -0700
+
+    update to v0.2.5
+
+[33mcommit d426585999658838663ba4fa438f77f3b78e324d[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Mar 25 21:59:02 2019 -0700
+
+     Support str type for loggers (#39)
+    
+    * fix the time estimation when resuming from a checkpoint
+    
+    * fix the time estimation when resuming from a checkpoint
+    
+    * support str type for loggers
+    
+    * fix yaml dump tests
+
+[33mcommit b0f40396ad382c6d9134093605c4b6e32aa8b66e[m
+Author: Aitical <965813422@qq.com>
+Date:   Sun Mar 10 08:16:08 2019 +0800
+
+     Update the documentation (#36)
+    
+    * update the documentation
+    
+    * update the documentation
+    
+    * Update io.md
+
+[33mcommit 76bcbe2d5e35fd0a3a5c8d462ed2673cb6599e33[m
+Merge: 8b4417c bfdd0d5
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Mar 9 15:36:46 2019 -0800
+
+    Merge pull request #38 from wangg12/master
+    
+    allow .yml extension for config file
+
+[33mcommit bfdd0d5985a112d11974961ab95b320f084ad455[m
+Author: wangg12 <guwang12@gmail.com>
+Date:   Fri Mar 8 10:08:58 2019 +0800
+
+    allow .yml extension for config file
+
+[33mcommit 8b4417c19a2147e1c8228d4c69f025dd8de43d41[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Mar 2 16:16:39 2019 -0800
+
+     Fix the time estimation when resuming from a checkpoint (#37)
+    
+    * fix the time estimation when resuming from a checkpoint
+    
+    * fix the time estimation when resuming from a checkpoint
+
+[33mcommit 1d6e91b1b0f6e4e31a11ed143ce26510ae4be91e[m
+Merge: c8c3493 ccb7ca3
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Mar 1 20:50:45 2019 -0800
+
+    Merge pull request #35 from wangg12/master
+    
+    add cosine lr schedule
+
+[33mcommit ccb7ca30f8ae2514ea4c06c9f45ae977fbd04fbf[m
+Author: wangg12 <guwang12@gmail.com>
+Date:   Sat Feb 16 17:42:27 2019 +0800
+
+    add cosine lr schedule
+
+[33mcommit c8c3493868e5363e2b118944b199f11e7cb4f0b4[m
+Merge: 8a3e232 2882ef1
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Feb 12 18:08:00 2019 +0800
+
+    Merge pull request #33 from OneDirection9/master
+    
+    bug fixes
+
+[33mcommit 2882ef12ce408c4af8ea5eeb39c6b09de1aa487b[m
+Author: HanZhipeng <hanzhipeng9@gmail.com>
+Date:   Mon Feb 11 16:47:16 2019 +0800
+
+    bug fixes
+
+[33mcommit 8a3e232cb43a20bbaea1edd949c03e25661cf5d1[m
+Merge: 841d4d4 e4e6960
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Feb 10 22:14:32 2019 +0800
+
+    Merge pull request #32 from youkaichao/typo
+    
+    correct typo
+
+[33mcommit e4e6960a8c8938d3970b5ac6c998e2a1b004fac6[m
+Author: youkaichao <youkaichao@126.com>
+Date:   Sun Feb 10 19:46:48 2019 +0800
+
+    correct typo
+
+[33mcommit 841d4d40921355352b236921fa06f92de71d6320[m
+Author: pangjm <pangjiangmiao@gmail.com>
+Date:   Thu Jan 24 20:05:44 2019 +0800
+
+    add resnext50_32x4d pretrain model
+
+[33mcommit 0f7d5718dbac112ff3cdead8fa3c49b99fb37bf2[m
+Merge: 0ad619c 68b6887
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Jan 23 19:45:15 2019 +0800
+
+    Merge pull request #31 from tjsongzw/master
+    
+    fix typo
+
+[33mcommit 68b6887ea06fe2f91b7f304ac717544bc9bdce95[m
+Author: tjsongzw <tjsongzw@gmail.com>
+Date:   Wed Jan 23 18:02:47 2019 +0800
+
+    fix typo
+
+[33mcommit 0ad619c17a7153d5f2b4d294971cdc134f093381[m[33m ([m[1;33mtag: v0.2.4[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu Jan 17 14:17:20 2019 +0800
+
+    update to v0.2.4
+
+[33mcommit 2415d46b9e9c3632fb731755be1cddf11f1e1d1d[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Jan 14 17:39:08 2019 +0800
+
+    add gn model urls
+
+[33mcommit 8f96c2a4bbce1ba657824f24927a32f3d8d43864[m
+Merge: ddb5222 7b79237
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Jan 7 22:46:16 2019 +0800
+
+    Merge pull request #29 from wangg12/master
+    
+    allow passing custom logger to runner
+
+[33mcommit 7b79237d2680a15eec1988ab2446163ec2816e8d[m
+Author: wangg12 <guwang12@gmail.com>
+Date:   Mon Jan 7 22:09:35 2019 +0800
+
+    update doc
+
+[33mcommit 0f88eddb62900c1e08a955918312c547f717a5cf[m
+Author: wangg12 <guwang12@gmail.com>
+Date:   Sun Jan 6 15:17:35 2019 +0800
+
+    allow passing custom logger to runner
+
+[33mcommit ddb5222817302c876c2cf22b1dd8f55f74baaf96[m[33m ([m[1;33mtag: v0.2.3[m[33m)[m
+Merge: fd00961 477010f
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Dec 25 15:48:57 2018 +0800
+
+    Merge pull request #28 from open-mmlab/pytorch-1.0
+    
+    Add compatibility with PyTorch 0.4.1 and 1.0
+
+[33mcommit 477010fb87c27a670b99762abafcb59ee7c33244[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Dec 25 15:39:47 2018 +0800
+
+    add a blank line
+
+[33mcommit afe97d53d6778d59d92d173166393ff8f4d4db8f[m
+Merge: b64d438 fd00961
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Dec 25 15:19:33 2018 +0800
+
+    Merge branch 'master' into pytorch-1.0
+
+[33mcommit b64d43873d183181012f4d951be685113570631a[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Dec 25 15:13:44 2018 +0800
+
+    make compatible with pytorch 0.4.1 and 1.0
+
+[33mcommit fd009613d3789a356aadb7e8469aa7c7e73cf9cd[m[33m ([m[1;33mtag: v0.2.2[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Dec 19 19:23:58 2018 +0800
+
+    update to 0.2.2
+
+[33mcommit 5a4620bc9fe17fe6b90f4e79c4dc5d8b25eb501f[m
+Merge: 514b8f8 c2d17da
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Dec 19 19:22:13 2018 +0800
+
+    Merge pull request #27 from OceanPang/master
+    
+    add open-mmlab urls
+
+[33mcommit c2d17dad965740f91def595feb67052a403bb385[m
+Author: pangjm <pjmzju@gmail.com>
+Date:   Wed Dec 19 18:07:23 2018 +0800
+
+    # nopa！
+
+[33mcommit 4486b34e3cf9da7c9216a59df95410a733dcc11e[m
+Author: pangjm <pjmzju@gmail.com>
+Date:   Wed Dec 19 17:00:43 2018 +0800
+
+    further reformat
+
+[33mcommit a6c255f2e49ce77b4e03fcc256b9ae0df0ec6bfb[m
+Author: pangjm <pjmzju@gmail.com>
+Date:   Wed Dec 19 16:57:42 2018 +0800
+
+    further reformat
+
+[33mcommit d756dce0067c48381ebf07c96789955ad2e651d0[m
+Author: pangjm <pjmzju@gmail.com>
+Date:   Wed Dec 19 16:53:47 2018 +0800
+
+    reformat checkpoint
+
+[33mcommit b3238191077f7caae27aa4004e771bddda1f1345[m
+Author: pangjm <pjmzju@gmail.com>
+Date:   Wed Dec 19 16:07:02 2018 +0800
+
+    minor revision
+
+[33mcommit de70fe5cb02a1d1d56a8c0937223818d0ca31160[m
+Author: pangjm <pjmzju@gmail.com>
+Date:   Wed Dec 19 13:39:31 2018 +0800
+
+    rm useless
+
+[33mcommit ecce857270a7035f7b2445078ee88543c7e7f382[m
+Author: pangjm <pjmzju@gmail.com>
+Date:   Wed Dec 19 13:38:07 2018 +0800
+
+    add resnext related urls
+
+[33mcommit 514b8f8acb9947b7d28671e6ad1856bc9a297a78[m
+Merge: 77e2a58 e45f7b9
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Dec 11 23:07:24 2018 +0800
+
+    Merge pull request #26 from thangvubk/master
+    
+    add eta to log
+
+[33mcommit e45f7b9ce45366b6752a876f12b2010cb3018670[m
+Author: ThangVu <thangvubk@gmail.com>
+Date:   Tue Dec 11 14:51:14 2018 +0000
+
+    minor
+
+[33mcommit 9db49e5610024797008b73531adf5ece0a0890dd[m
+Author: thangvu <thangvubk@gmail.com>
+Date:   Mon Dec 10 17:28:47 2018 +0900
+
+    minor fix syntax
+
+[33mcommit 3ea98248ba0d3528aecb7397522ab32b6bbe0ed7[m
+Author: thangvu <thangvubk@gmail.com>
+Date:   Mon Dec 10 17:09:19 2018 +0900
+
+    add moving average eta
+
+[33mcommit 77e2a58f5de4c4e73b1aba70d0093614757b7324[m[33m ([m[1;33mtag: v0.2.1[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Dec 9 17:28:52 2018 +0800
+
+    update license and version
+
+[33mcommit 076cdd6c74bbe5d0d16e1ef283b856c9487120c5[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Dec 9 17:24:32 2018 +0800
+
+    support pytorch 1.0
+
+[33mcommit 578bbe6241875df13852f9613c782574c746ba00[m
+Author: ThangVu <thangvubk@gmail.com>
+Date:   Sat Dec 8 07:53:19 2018 +0000
+
+    fix travis check
+
+[33mcommit d923cf4c4940eb6336d395d75dbd2ff3c86f5972[m
+Author: ThangVu <thangvubk@gmail.com>
+Date:   Sat Dec 8 07:18:07 2018 +0000
+
+    add eta to log
+
+[33mcommit a097c65fbffea38bac69b09d7be2a0eaf1d514e6[m
+Merge: d4d1108 020348e
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Dec 7 10:48:29 2018 +0800
+
+    Merge pull request #25 from yhcao6/vgg
+    
+    add ceil_mode and with_last_pool to vgg
+
+[33mcommit 020348ecb1737db28aa5afd305053621f79dfd08[m
+Author: yhcao6 <yhcao6@gmail.com>
+Date:   Fri Dec 7 10:27:26 2018 +0800
+
+    add ceil_mode and with_last_pool to vgg
+
+[33mcommit d4d1108a88411688e52070dc0b62a61c1a7c1891[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Oct 19 22:07:01 2018 +0800
+
+    Update LICENSE
+
+[33mcommit 517e061ca49a2b6d136f6ad7634f1bd0da641771[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Oct 15 17:50:00 2018 +0800
+
+    bug fix for config path
+
+[33mcommit 7205c2b1d073d009f48f74ea96b9cb495e84ac3f[m
+Merge: e093bb1 211e791
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Oct 13 23:28:01 2018 +0800
+
+    Merge pull request #20 from 0xflotus/patch-1
+    
+    fixed mechanism
+
+[33mcommit 211e791cf0b495c11aabdb6da5ff71cdba7bd394[m
+Author: 0xflotus <26602940+0xflotus@users.noreply.github.com>
+Date:   Sat Oct 13 17:14:58 2018 +0200
+
+    fixed mechanism
+
+[33mcommit e093bb1397d7ed9e4775f344c6af54dd390e3de1[m
+Author: kuonangzhe <15834119171@163.com>
+Date:   Sat Oct 13 16:56:46 2018 +0800
+
+    Update image.md: fix inconsistent API (#19)
+    
+    Update old crop_img and pad_img to imcrop and impad
+
+[33mcommit da39212f94a3d433cf99e55cfecd77ebf359e0ca[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Oct 13 01:50:42 2018 +0800
+
+    add requirements.txt
+
+[33mcommit 54dd32ea2269e0758fc67b6e9c4f11db12951b1a[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Oct 13 01:35:03 2018 +0800
+
+    fix path error to autodoc apis
+
+[33mcommit f75f4094f3e6b553f4f1d3cec209a32d187acc58[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Oct 12 13:58:01 2018 +0800
+
+    fix doc building error
+
+[33mcommit ca0d6e8aa7965d8b18fd24d8acf08997cca61cd3[m[33m ([m[1;33mtag: v0.2.0[m[33m)[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Oct 12 13:23:32 2018 +0800
+
+    add deployment to pypi
+
+[33mcommit d2358c87f8296ff4755c0e1fc9cbe95e94e0da78[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Oct 12 13:07:35 2018 +0800
+
+    update the documentation for release
+
+[33mcommit 9c38b35fb6437d4723550250dbfd1b2e97f580ec[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Oct 10 20:30:36 2018 +0800
+
+    bug fix for checking bias
+
+[33mcommit ab670420d7d7662df1d3e749345df72a698aadc6[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Oct 10 19:18:00 2018 +0800
+
+    add opencv-python to requirements
+
+[33mcommit 0f2594bc3aa4331009d6b504a7798d17ace507b0[m
+Merge: 080489e c5fee83
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Oct 10 16:54:12 2018 +0800
+
+    Merge pull request #15 from open-mmlab/cnn
+    
+    Add cnn module
+
+[33mcommit c5fee83493b199f683172d3554cb30ef45fd87ab[m
+Merge: 3333bab 0164a04
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Oct 10 16:23:51 2018 +0800
+
+    Merge pull request #17 from yl-1993/cnn
+    
+    support initializing with official pretrained model
+
+[33mcommit 0164a0466cfa0d2f25e626c5086f584d5600ea80[m
+Author: yl-1993 <yl93528@gmail.com>
+Date:   Wed Oct 10 15:09:20 2018 +0800
+
+    rm unused
+
+[33mcommit 41ee590eaadc88ac4d0cd985d8c5bd90877578e0[m
+Author: yl-1993 <yl93528@gmail.com>
+Date:   Wed Oct 10 15:08:57 2018 +0800
+
+    keep name rule consistent with official model
+
+[33mcommit 3333bab612229b68566a1643f7b22b44f5c4f739[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Oct 10 00:03:16 2018 +0800
+
+    use weight init methods
+
+[33mcommit 62438226271b5320d07ecaeba4e95ced41b956a3[m
+Merge: 9af1a2b 4b2abfc
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Oct 9 23:47:06 2018 +0800
+
+    Merge branch 'yl-1993-cnn' into cnn
+
+[33mcommit 4b2abfcf245bc1c4b8de12245e0fb7a8b301bd2b[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Oct 9 23:46:36 2018 +0800
+
+    minor format adjustment
+
+[33mcommit 64afdd0afa1fd3f56c44c0e130ba9053055aa77b[m
+Author: yl-1993 <yl93528@gmail.com>
+Date:   Tue Oct 9 23:12:54 2018 +0800
+
+    put newline as last character
+
+[33mcommit afa55d8be228e4f844172b51751ac8dde210aa52[m
+Merge: f63f2a9 9af1a2b
+Author: yl-1993 <yl93528@gmail.com>
+Date:   Tue Oct 9 22:59:21 2018 +0800
+
+    Merge branch 'cnn' into cnn
+
+[33mcommit f63f2a974881e54ae23b276bd50a4a116574d50a[m
+Author: yl-1993 <yl93528@gmail.com>
+Date:   Tue Oct 9 22:41:18 2018 +0800
+
+    fix flake8 error
+
+[33mcommit 9af1a2b025a6f8a32aad55dcde97a914b821326a[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Oct 9 22:11:11 2018 +0800
+
+    add weight initialization methods
+
+[33mcommit 8332ddbcbe0f7cc8ab2f5ed01253cedcc32b16ee[m
+Author: yl-1993 <yl93528@gmail.com>
+Date:   Tue Oct 9 21:20:13 2018 +0800
+
+    rm unused
+
+[33mcommit 64959bd7725b91e137a9a3712ab2e8661f5ae01e[m
+Author: yl-1993 <yl93528@gmail.com>
+Date:   Tue Oct 9 21:14:09 2018 +0800
+
+    add alexnet & vgg
+
+[33mcommit 867d5a500391c4aa993b53145045cc9f56e1312b[m
+Author: yl-1993 <yl93528@gmail.com>
+Date:   Tue Oct 9 21:08:03 2018 +0800
+
+    consistent param list of block
+
+[33mcommit 080489e931534fb64c294eaa772e4cbdcea447b2[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Oct 9 00:06:48 2018 +0800
+
+    set default log dir for TensorboardLoggerHook
+
+[33mcommit 99f53d2ac16cb6d7666c75e53bf443c857348b06[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Oct 8 21:28:14 2018 +0800
+
+    fix tests
+
+[33mcommit 7ba182a133a70731e3021c63d9c83aa89af0f9cc[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Oct 8 20:36:33 2018 +0800
+
+    bug fix for missing imports
+
+[33mcommit b9fa5c90947e5d8704c2d798eb1eaab51bc37e69[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Oct 8 20:34:49 2018 +0800
+
+    add collate function
+
+[33mcommit d400ac081ec498fce71a6373fe657f524a2c029f[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Oct 8 20:15:15 2018 +0800
+
+    add parallel module
+
+[33mcommit 47fc7a69edf11d9b39715af65b9f1a6c4b0f7fd8[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Oct 7 19:31:47 2018 +0800
+
+    fix unit test
+
+[33mcommit b98980b77b9fda7d65edfaaea74a460d6172ef99[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Oct 7 17:45:41 2018 +0800
+
+    add some unit tests
+
+[33mcommit ecfce392fada280fda233b5cb4434257a6a976df[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Oct 7 17:30:00 2018 +0800
+
+    add EmptyCacheHook and rename some modules
+
+[33mcommit e363982adaccdb223746267632c25eb39331c53c[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Oct 6 20:00:52 2018 +0800
+
+    add cnn module
+
+[33mcommit f4550cd319cd59302029c97211d6ed6cee087d36[m
+Merge: ad98e85 4cfd45f
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Oct 6 15:46:00 2018 +0800
+
+    Merge pull request #14 from open-mmlab/docs
+    
+    Draft documentation
+
+[33mcommit 4cfd45f7b01856d11f0d4c66caaa4838fc12e1d0[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Oct 6 14:53:22 2018 +0800
+
+    minor fix
+
+[33mcommit 6d623cf1ed08b0d4e4c96211a85f47fb4e0c498c[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Oct 6 14:44:27 2018 +0800
+
+    add some documentation
+
+[33mcommit 509d12f944a9582e840952095181ca5b93cde471[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Oct 6 14:44:11 2018 +0800
+
+    fix init arguments
+
+[33mcommit 523f861b696a997d8d2c58b454f4e4420848da6f[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Oct 5 23:55:44 2018 +0800
+
+    add priority enum
+
+[33mcommit f573c11c3db7d38baef4f780eb85cad4155461f8[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Oct 5 00:01:05 2018 +0800
+
+    draft documentation
+
+[33mcommit ad98e856de1749e9d25cbf7d6f5d5f3a24ed1b86[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Oct 5 00:00:22 2018 +0800
+
+    set version number to 0.2.0
+
+[33mcommit 852e980eac904aeb444dac14ae8002bdce30832f[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu Oct 4 20:36:29 2018 +0800
+
+    ignore a flake8 error
+
+[33mcommit 5a372d05921982402c16c51b5c429428988fd0f1[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu Oct 4 20:20:29 2018 +0800
+
+    bug fix and update examples
+
+[33mcommit 6e8d925e456cac351a1aff849f245074fb045300[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu Oct 4 19:48:59 2018 +0800
+
+    add a class decorator to register file handlers
+
+[33mcommit d796c13b1be08a4be8f2b77b62501850700b7db8[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu Oct 4 19:27:24 2018 +0800
+
+    rename torchpack to runner
+
+[33mcommit 51b73ac173ea4c823ebb905bc6858c4769cdc572[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu Oct 4 17:15:14 2018 +0800
+
+    refactoring and remove some public apis
+
+[33mcommit 34eca27216b712fe2449970369ad77cdb5e176c1[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu Oct 4 16:58:11 2018 +0800
+
+    add register_handler and refactor BaseFileHandler
+
+[33mcommit 3e1befe1b5f58b2e1c2369a1bab1b30c5d3788b2[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Oct 3 17:56:52 2018 +0800
+
+    bug fix
+
+[33mcommit 97f9febd42ab29d4c3397d8ec8cd005959c77f84[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Oct 3 17:19:54 2018 +0800
+
+    add a method to draw bboxes and labels
+
+[33mcommit c3f87f48d1c845fb3c462a2b877de0f9c89e8137[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Oct 1 22:26:18 2018 +0800
+
+    bug fix
+
+[33mcommit ddef9a5606a15a8b5ef794881cd9fd2aaf3bf654[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Oct 1 22:13:52 2018 +0800
+
+    fix flake8 errors
+
+[33mcommit f9d8870f459fee83fa91d5fd462d032ddd755a68[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Oct 1 18:46:56 2018 +0800
+
+    auto-connect pavi service before running
+
+[33mcommit 95cb88535f47ad4eb8f5fbc0045c90accdeb3169[m
+Merge: e042299 93620a2
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Sep 29 23:54:11 2018 +0800
+
+    Merge branch 'master' of github.com:open-mmlab/mmcv
+
+[33mcommit e042299452854310d293f153069d987fa284d927[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Sep 29 23:53:58 2018 +0800
+
+    update cifar10 example
+
+[33mcommit 961c3388932195fdee7eca13ab0035b0b06c56db[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sat Sep 29 23:50:37 2018 +0800
+
+    minor update of hooks
+
+[33mcommit 93620a28f1c9807579ee00b6564b5aa4ed85c819[m
+Merge: c211ab1 6249f82
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu Sep 27 13:47:34 2018 +0800
+
+    Merge pull request #9 from ycxioooong/master
+    
+    add slice support and unit test
+
+[33mcommit 6249f829c6bd4efc45a5d78ee550ba233a05d9f2[m
+Author: xiongyu <xiongyuxy@gmail.com>
+Date:   Thu Sep 27 13:38:36 2018 +0800
+
+    add negative indexing support
+
+[33mcommit c75ff25940bdfb6d6d788445b6d15a947dacbf90[m
+Author: xiongyu <xiongyuxy@gmail.com>
+Date:   Thu Sep 27 13:21:59 2018 +0800
+
+    add more tests for video_reader slice
+
+[33mcommit c16fab7eca2dd89cc9116accdc8491e3323c1d7d[m
+Author: xiongyu <xiongyuxy@gmail.com>
+Date:   Wed Sep 26 22:16:11 2018 +0800
+
+    minor change: value error to index error
+
+[33mcommit 2ab73c85eee57d710227eabcb5c5e37fb6d6bc52[m
+Author: xiongyu <xiongyuxy@gmail.com>
+Date:   Wed Sep 26 22:00:30 2018 +0800
+
+    add slice support and unit test
+
+[33mcommit c211ab132d89cd480cf628c49633be8bb2c9178f[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Sep 25 01:56:16 2018 +0800
+
+    use attributes to check if a model is a DataParallel or DistributedDataParallel
+
+[33mcommit 2d231c2b7cfe587fd1bda7b8882325f475b5d2f5[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Sep 23 23:28:19 2018 +0800
+
+    bug fix
+
+[33mcommit 7478e1a6c8d3ac1e735069444f120303ab2596dc[m
+Merge: 27c8169 6d51a94
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Sep 21 22:42:25 2018 +0800
+
+    Merge pull request #8 from ycxioooong/master
+    
+    change video reader to 0-based indexing
+
+[33mcommit 6d51a9419692de7d9e208f77c664cf6875d2252b[m
+Author: xiongyu <xiongyuxy@gmail.com>
+Date:   Fri Sep 21 22:25:02 2018 +0800
+
+    debug video reader
+
+[33mcommit 7bea02c0fae27108e25a1aa5a4c1ca3bb813641a[m
+Author: xiongyu <xiongyuxy@gmail.com>
+Date:   Fri Sep 21 21:55:37 2018 +0800
+
+    update video reader test code
+
+[33mcommit a5529848cc8d805866c29670cada5a953b2c2282[m
+Author: xiongyu <xiongyuxy@gmail.com>
+Date:   Fri Sep 21 21:43:45 2018 +0800
+
+    change video reader to 0-based indexing
+
+[33mcommit 27c81690961c3658b700d4d68aaf2848f730d3bd[m
+Merge: 923091b 818c40c
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Sep 21 17:31:43 2018 +0800
+
+    Merge pull request #7 from OceanPang/env
+    
+    fix checkpoint & runner bugs
+
+[33mcommit 818c40c37222b62944606582c28dd01a6746b342[m
+Author: pangjm <pjmzju@gmail.com>
+Date:   Fri Sep 21 17:21:25 2018 +0800
+
+    minor edit to build_hook
+
+[33mcommit fc5319b631ca2b36a2af880b89c4f49f3113cf33[m
+Author: pangjm <pjmzju@gmail.com>
+Date:   Fri Sep 21 17:02:36 2018 +0800
+
+    add build_hook & other minor modify
+
+[33mcommit 923091b513054dccad0b36f452ab9a61c0181894[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Sep 21 15:47:15 2018 +0800
+
+    setup travis
+
+[33mcommit 75ee2531a0b5c3f33685c103edf66cf4a4e210a0[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Fri Sep 21 14:00:56 2018 +0800
+
+    rename *Processor to *Handler and fix bug for python 2
+
+[33mcommit 31e684fcfe725f1a65a59701d3b2efee697b22e1[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Thu Sep 20 14:15:12 2018 +0800
+
+    bug fix: raise exceptions for missing config keys
+
+[33mcommit ee54f9cf5f121b7883d09f4b9b144783047a2563[m
+Author: pangjm <pjmzju@gmail.com>
+Date:   Tue Sep 18 10:55:17 2018 +0800
+
+    fix checkpoint & runner bugs
+
+[33mcommit 685e8f991b8c1c07e1174df645c3e9fdd9c701c7[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Sep 2 21:31:07 2018 +0800
+
+    fix unit test for imflip
+
+[33mcommit 1f76784717a40139eb3321438ac5599fe83b8eb9[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Sun Sep 2 21:20:02 2018 +0800
+
+    add some methods
+
+[33mcommit 507e67e4785d1d565ed8e76b7b1701f147bf4f0c[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Wed Aug 29 13:56:21 2018 +0800
+
+    make optimizer an optional argument for Runner
+
+[33mcommit 7d872508358141fc69476b352dda2641ff00f086[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Aug 28 23:37:04 2018 +0800
+
+    fix a typo in docstring
+
+[33mcommit ffdc1d457fa2e29967e6e36d78c14311816ec576[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Aug 28 23:27:59 2018 +0800
+
+    add initial version of torchpack
+
+[33mcommit 02ceae8327f894d95ec13c80403d515f375f0f93[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Aug 28 23:26:21 2018 +0800
+
+    add symlink method
+
+[33mcommit 2f49db9d01403ad3139a8cadce4b6c6e1c4f6762[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Aug 28 01:39:09 2018 +0800
+
+    method renames
+
+[33mcommit 978ecfda84d59435dd93be6aa3ceee313e997f6c[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Aug 28 01:38:53 2018 +0800
+
+    refactoring for optflow
+
+[33mcommit 7ccd8b0b74f3f862dc4e27895bdc454060a9ccb5[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Tue Aug 28 01:35:04 2018 +0800
+
+    minor fix
+
+[33mcommit 4adf7006b06d2daaa7e19a0131dd812ad5a16bb7[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Aug 27 20:25:52 2018 +0800
+
+    add config class
+
+[33mcommit f872672f58d5873327b5eb15648f0911416f2437[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Aug 27 17:37:13 2018 +0800
+
+    renaming and reorganizing for  subpackage
+
+[33mcommit eadd1e0f4f28242c698fe325bd41970bf30feea4[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Aug 27 15:29:12 2018 +0800
+
+    re-organize io module as a subpackage
+
+[33mcommit 5f2e58c5f2439f223913da6536c96cdc9116fabd[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Aug 27 03:10:39 2018 +0800
+
+    add optical flow module
+
+[33mcommit 43ebfd9a62e976cb4b47e985b1124f0577ad52e6[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Aug 27 02:38:05 2018 +0800
+
+    move some unit tests
+
+[33mcommit d4c472cc6dc2f5319e42e8fea63f6282ad56b5dd[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Aug 27 02:30:10 2018 +0800
+
+    remove debug comments
+
+[33mcommit cbcb90dc211481596b7c44aacf31187481458c31[m
+Author: Kai Chen <chenkaidev@gmail.com>
+Date:   Mon Aug 27 02:12:31 2018 +0800
+
+    port from cvbase and do some refactoring
+
+[33mcommit b3a84c7fb255246f71b5cecdae301dc03713c488[m
+Author: Dahua Lin <lindahua@gmail.com>
+Date:   Sat Aug 25 23:09:20 2018 +0800
+
+    Change license to GPLv3
+
+[33mcommit ece01c8b36d591729d450024c74ab1cce0559b91[m
+Author: Dahua Lin <lindahua@gmail.com>
+Date:   Sat Aug 25 23:00:43 2018 +0800
+
+    change to GPLv3 license
+
+[33mcommit 371a37e1c4763b601c8a01213c0b5d7b9633e3e2[m
+Author: Dahua Lin <lindahua@gmail.com>
+Date:   Sat Aug 25 18:58:31 2018 +0800
+
+    Update README.md
+
+[33mcommit 93ad3866837c5967818fa627616c467e7527f7c8[m
+Author: Dahua Lin <lindahua@gmail.com>
+Date:   Wed Aug 22 15:05:26 2018 +0800
+
+    Initial commit

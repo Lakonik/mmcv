@@ -265,7 +265,8 @@ class Runner(object):
             self._inner_iter = i
             self.call_hook('before_train_iter')
             outputs = self.batch_processor(
-                self.model, data_batch, train_mode=True, **kwargs)
+                self.model, data_batch, train_mode=True,
+                log_level=self.logger.handlers[0].level, **kwargs)
             if not isinstance(outputs, dict):
                 raise TypeError('batch_processor() must return a dict')
             if 'log_vars' in outputs:
