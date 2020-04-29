@@ -33,7 +33,7 @@ class TextLoggerHook(LoggerHook):
 
     def _log_info(self, log_dict, runner):
         if runner.mode == 'train':
-            log_str = 'Epoch [{}][{}/{}]\tlr: {:.5f}, '.format(
+            log_str = 'Epoch [{}][{}/{}]\tlr: {:.2E}, '.format(
                 log_dict['epoch'], log_dict['iter'], len(runner.data_loader),
                 log_dict['lr'])
             if 'time' in log_dict.keys():
